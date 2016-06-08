@@ -1,0 +1,19 @@
+{
+    "name":"baykier/chinese-identity-card",
+    "description": "chinese identity card validate",
+    "authors":[
+        {
+            "name" : "baykier",
+            "homepage" : "https://github.com/baykier/",
+            "email": "aigoudebook@gmail.com"
+        }
+    ],
+    "require":{
+        "php" : ">=5.4"
+    },
+    "autoload":{
+        "psr-4":{
+            "Baykier\\Identity\\":"src/"
+        }
+    }
+}
